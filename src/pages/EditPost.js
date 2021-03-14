@@ -1,6 +1,6 @@
 import React from 'react';
 
-const URL = 'http://localhost:4000/api/posts/';
+const URL = 'https://project-4-react-side-wayferer.herokuapp.com//posts/';
 
 class EditPost extends React.Component {
   state = {
