@@ -10,14 +10,14 @@ class ShowPostPage extends React.Component {
   };
 
   componentDidMount() {
-    fetch(`https://project-4-react-side-wayferer.herokuapp.com/posts/${this.props.match.params.id}`)
+    fetch(`https://project-4-wayferer.herokuapp.com/posts/${this.props.match.params.id}`)
       .then((response) => response.json())
       .then((jsonData) => this.setState(jsonData))
       .catch((err) => console.log(err));
   }
 
   handleChange = () => {
-    fetch(`https://project-4-react-side-wayferer.herokuapp.com/posts/${this.props.match.params.id}`)
+    fetch(`https://project-4-wayferer.herokuapp.com/posts/${this.props.match.params.id}`)
       .then((response) => response.json())
       .then((json) => {
         this.setState({

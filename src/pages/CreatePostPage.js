@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-const URL = 'https://project-4-react-side-wayferer.herokuapp.com/posts';
+const URL = 'https://project-4-wayferer.herokuapp.com/posts';
 
 class CreatePostPage extends Component {
   state = {
